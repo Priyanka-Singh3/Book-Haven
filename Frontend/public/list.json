@@ -1,0 +1,579 @@
+[
+    {
+        "id": 1,
+        "name": "The Silent Patient",
+        "title": "A shocking psychological thriller of a woman's act of violence against her husband.",
+        "price": 150,
+        "category": "Thriller",
+        "image": "https://m.media-amazon.com/images/I/81JJPDNlxSL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 2,
+        "name": "Where the Crawdads Sing",
+        "title": "A story of survival, mystery, and love set in the marshes of North Carolina.",
+        "price": 0,
+        "category": "Mystery",
+        "image": "https://m.media-amazon.com/images/I/81e+mSqZvnL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 3,
+        "name": "Educated",
+        "title": "A memoir by Tara Westover about growing up in a strict and abusive household in rural Idaho.",
+        "price": 0,
+        "category": "Biography",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 4,
+        "name": "Becoming",
+        "title": "Michelle Obama's memoir recounts her journey from the South Side of Chicago to the White House.",
+        "price": 300,
+        "category": "Biography",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 5,
+        "name": "Normal People",
+        "title": "The story of a complex relationship between two people who can't seem to let each other go.",
+        "price": 180,
+        "category": "Romance",
+        "image": "https://m.media-amazon.com/images/I/71fnqwR0eSL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 6,
+        "name": "The Great Gatsby",
+        "title": "A classic novel that explores themes of wealth, love, and the American Dream.",
+        "price": 0,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/41XMaCHkrgL._SY1000_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 7,
+        "name": "Little Fires Everywhere",
+        "title": "A drama that explores the complexities of family life in suburban America.",
+        "price": 220,
+        "category": "Drama",
+        "image": "https://m.media-amazon.com/images/I/81rcVnz-jQL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 8,
+        "name": "Dune",
+        "title": "A science fiction epic set in a distant future amidst a huge interstellar empire.",
+        "price": 400,
+        "category": "Science Fiction",
+        "image": "https://m.media-amazon.com/images/I/71lwUXdZJqL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 9,
+        "name": "1984",
+        "title": "George Orwell's dystopian novel about a totalitarian regime that uses surveillance to control citizens.",
+        "price": 0,
+        "category": "Dystopian",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 10,
+        "name": "The Catcher in the Rye",
+        "title": "A novel about teenage rebellion and angst in 1950s America.",
+        "price": 130,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 11,
+        "name": "The Road",
+        "title": "A post-apocalyptic tale of a father and son's journey through a desolate landscape.",
+        "price": 170,
+        "category": "Post-Apocalyptic",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 12,
+        "name": "The Book Thief",
+        "title": "The story of a young girl living in Nazi Germany, narrated by Death.",
+        "price": 0,
+        "category": "Historical Fiction",
+        "image": "https://m.media-amazon.com/images/I/91JGwQlnu7L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 13,
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "title": "The first book in the beloved Harry Potter series, introducing the world of Hogwarts.",
+        "price": 320,
+        "category": "Fantasy",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91ocU8970hL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 14,
+        "name": "The Hunger Games",
+        "title": "A dystopian novel where a young girl must survive a televised death match.",
+        "price": 0,
+        "category": "Dystopian",
+        "image": "https://m.media-amazon.com/images/I/61I24wOsn8L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 15,
+        "name": "The Alchemist",
+        "title": "A philosophical novel about a shepherd's journey to discover his personal legend.",
+        "price": 150,
+        "category": "Philosophical",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 16,
+        "name": "Pride and Prejudice",
+        "title": "Jane Austen's classic novel about the manners and matrimonial machinations among the British gentry.",
+        "price": 100,
+        "category": "Classics",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HHqVTAJQL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 17,
+        "name": "The Hobbit",
+        "title": "J.R.R. Tolkien's fantasy novel about Bilbo Baggins' adventure in Middle-earth.",
+        "price": 0,
+        "category": "Fantasy",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 18,
+        "name": "The Da Vinci Code",
+        "title": "A mystery thriller that follows symbologist Robert Langdon as he uncovers secrets of the Catholic Church.",
+        "price": 230,
+        "category": "Thriller",
+        "image": "https://m.media-amazon.com/images/I/815WORuYMML._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 19,
+        "name": "To Kill a Mockingbird",
+        "title": "Harper Lee's novel about racial injustice in the Deep South during the 1930s.",
+        "price": 0,
+        "category": "Classics",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/1200px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 20,
+        "name": "The Shining",
+        "title": "Stephen King's horror novel about a haunted hotel and the family's descent into madness.",
+        "price": 300,
+        "category": "Horror",
+        "image": "https://m.media-amazon.com/images/I/81CuEX3W9UL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 21,
+        "name": "The Handmaid's Tale",
+        "title": "A dystopian novel set in a future where women are stripped of their rights.",
+        "price": 160,
+        "category": "Dystopian",
+        "image": "https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 22,
+        "name": "The Girl on the Train",
+        "title": "A psychological thriller about a woman who believes she witnessed a crime from her train window.",
+        "price": 200,
+        "category": "Thriller",
+        "image": "https://m.media-amazon.com/images/I/71vWnStCnEL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 23,
+        "name": "Fahrenheit 451",
+        "title": "Ray Bradbury's classic novel about a future society where books are banned.",
+        "price": 0,
+        "category": "Dystopian",
+        "image": "https://m.media-amazon.com/images/I/61l8LHt4MeL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 24,
+        "name": "Gone Girl",
+        "title": "A psychological thriller that explores the complexities of marriage and deceit.",
+        "price": 220,
+        "category": "Thriller",
+        "image": "https://m.media-amazon.com/images/I/71+khXHbe5L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 25,
+        "name": "Brave New World",
+        "title": "A dystopian novel that imagines a future society obsessed with consumerism and control.",
+        "price": 180,
+        "category": "Dystopian",
+        "image": "https://m.media-amazon.com/images/I/91D4YvdC0dL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 26,
+        "name": "The Goldfinch",
+        "title": "A novel about a boy whose life is upended by the death of his mother in a museum explosion.",
+        "price": 300,
+        "category": "Drama",
+        "image": "https://m.media-amazon.com/images/I/81QxwwBNU9L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 27,
+        "name": "The Outsiders",
+        "title": "A classic novel that tells the story of teenage rebellion and class conflict in the 1960s.",
+        "price": 150,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/71Bg39CmhoL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 28,
+        "name": "The Bell Jar",
+        "title": "Sylvia Plath's semi-autobiographical novel about a young woman's mental breakdown.",
+        "price": 200,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81wUVpREPSL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 29,
+        "name": "Moby-Dick",
+        "title": "Herman Melville's epic tale of obsession and revenge on the high seas.",
+        "price": 180,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/41QJo8390EL._SY1000_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 30,
+        "name": "The Road",
+        "title": "A post-apocalyptic novel about a father and son's journey through a devastated America.",
+        "price": 0,
+        "category": "Post-Apocalyptic",
+        "image": "https://m.media-amazon.com/images/I/91bwHfPx-SL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 31,
+        "name": "The Odyssey",
+        "title": "Homer's epic poem recounting the adventures of Odysseus as he returns home from the Trojan War.",
+        "price": 100,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81kLSHHjn-L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 32,
+        "name": "The Catch-22",
+        "title": "Joseph Heller's satirical novel about the absurdities of war and bureaucracy.",
+        "price": 170,
+        "category": "Classics",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Catch22.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 33,
+        "name": "The Godfather",
+        "title": "Mario Puzo's novel about the Corleone crime family and the world of organized crime.",
+        "price": 250,
+        "category": "Crime",
+        "image": "https://m.media-amazon.com/images/I/61zAyF3qLnL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 34,
+        "name": "The Chronicles of Narnia",
+        "title": "C.S. Lewis's classic fantasy series about the magical land of Narnia.",
+        "price": 350,
+        "category": "Fantasy",
+        "image": "https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 35,
+        "name": "War and Peace",
+        "title": "Leo Tolstoy's epic novel about the lives of Russian aristocrats during the Napoleonic Wars.",
+        "price": 280,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/51lLr8b16DL._SY780_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 36,
+        "name": "The Color Purple",
+        "title": "Alice Walker's Pulitzer Prize-winning novel about the life of African American women in the South.",
+        "price": 0,
+        "category": "Historical Fiction",
+        "image": "https://m.media-amazon.com/images/I/71f6DRbcrsL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 37,
+        "name": "The Lord of the Rings",
+        "title": "J.R.R. Tolkien's epic fantasy trilogy about the battle between good and evil in Middle-earth.",
+        "price": 450,
+        "category": "Fantasy",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/z/l/s/the-lord-of-the-rings-original-imaggtnpdjzb8qhg.jpeg?q=90&crop=false",
+        "availability": "Paid"
+    },
+    {
+        "id": 38,
+        "name": "The Kite Runner",
+        "title": "Khaled Hosseini's novel about friendship, betrayal, and redemption in Afghanistan.",
+        "price": 180,
+        "category": "Drama",
+        "image": "https://m.media-amazon.com/images/I/81IzbD2IiIL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 39,
+        "name": "The Secret History",
+        "title": "Donna Tartt's novel about a group of elite college students who become involved in a murder.",
+        "price": 230,
+        "category": "Thriller",
+        "image": "https://m.media-amazon.com/images/I/71HcEbK3pEL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 40,
+        "name": "The Time Traveler's Wife",
+        "title": "A love story about a man with a genetic disorder that causes him to time travel unpredictably.",
+        "price": 150,
+        "category": "Science Fiction",
+        "image": "https://m.media-amazon.com/images/I/71PDZTHojIL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 41,
+        "name": "Life of Pi",
+        "title": "Yann Martel's novel about a boy stranded on a lifeboat with a Bengal tiger.",
+        "price": 0,
+        "category": "Adventure",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631251689i/4214.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 42,
+        "name": "The Girl with the Dragon Tattoo",
+        "title": "A mystery thriller about a journalist and a hacker investigating a wealthy family's secrets.",
+        "price": 220,
+        "category": "Thriller",
+        "image": "https://www.vintagevaluebooks.in/cdn/shop/products/the-girl-with-the-dragon-tattoo-millennium-trilogy-book-1-by-reg-keeland-translator-larsson-stieg-182515.jpg?v=1708935138",
+        "availability": "Paid"
+    },
+    {
+        "id": 43,
+        "name": "Slaughterhouse-Five",
+        "title": "Kurt Vonnegut's satirical novel about the bombing of Dresden and the absurdity of war.",
+        "price": 180,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/51gi6rxS6OL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 44,
+        "name": "The Catcher in the Rye",
+        "title": "J.D. Salinger's novel about teenage rebellion and alienation in 1950s America.",
+        "price": 150,
+        "category": "Classics",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 45,
+        "name": "Dracula",
+        "title": "Bram Stoker's gothic horror novel about the vampire Count Dracula.",
+        "price": 140,
+        "category": "Horror",
+        "image": "https://m.media-amazon.com/images/I/41Dv6UvxAKL.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 46,
+        "name": "Frankenstein",
+        "title": "Mary Shelley's novel about a scientist who creates a living being from dead tissue.",
+        "price": 130,
+        "category": "Horror",
+        "image": "https://m.media-amazon.com/images/I/81z7E0uWdtL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 47,
+        "name": "The Strange Case of Dr Jekyll and Mr Hyde",
+        "title": "Robert Louis Stevenson's novella about a man with two personalities, one good and one evil.",
+        "price": 110,
+        "category": "Horror",
+        "image": "https://m.media-amazon.com/images/I/61fB3-2oLJL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 48,
+        "name": "The Picture of Dorian Gray",
+        "title": "Oscar Wilde's novel about a man who remains young while his portrait ages.",
+        "price": 120,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/91uns-1GnQL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 49,
+        "name": "Wuthering Heights",
+        "title": "Emily Brontë's novel about the passionate and destructive love between Catherine and Heathcliff.",
+        "price": 170,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81T34Sem-tL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 50,
+        "name": "The Grapes of Wrath",
+        "title": "John Steinbeck's novel about a poor family traveling to California during the Great Depression.",
+        "price": 160,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81yN7h6yG-L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 51,
+        "name": "One Hundred Years of Solitude",
+        "title": "Gabriel García Márquez's novel about the rise and fall of the Buendía family.",
+        "price": 200,
+        "category": "Magical Realism",
+        "image": "https://m.media-amazon.com/images/I/81oAEEwxBWL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 52,
+        "name": "The Sun Also Rises",
+        "title": "Ernest Hemingway's novel about a group of expatriates living in Paris and Spain after World War I.",
+        "price": 140,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/71O7XjXaMhL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 53,
+        "name": "Lolita",
+        "title": "Vladimir Nabokov's novel about a middle-aged man's obsession with a 12-year-old girl.",
+        "price": 150,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/8100WmCA1dL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 54,
+        "name": "Madame Bovary",
+        "title": "Gustave Flaubert's novel about a woman who seeks romance and excitement outside her marriage.",
+        "price": 130,
+        "category": "Classics",
+        "image": "https://cdn.kobo.com/book-images/a80e86ad-8690-4916-a2be-1a8827e376ad/1200/1200/False/madame-bovary-183.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 55,
+        "name": "Murder on the Orient Express",
+        "title": "Agatha Christie's mystery novel about a murder on a luxury train.",
+        "price": 160,
+        "category": "Mystery",
+        "image": "https://m.media-amazon.com/images/I/71ihbKf67RL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 56,
+        "name": "The Old Man and the Sea",
+        "title": "Ernest Hemingway's novella about an old fisherman's struggle to catch a giant marlin.",
+        "price": 0,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/61y4XeiQLnL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Free"
+    },
+    {
+        "id": 57,
+        "name": "The Trial",
+        "title": "Franz Kafka's novel about a man who is arrested and prosecuted by an inaccessible authority.",
+        "price": 140,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/71X73uwgd1L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 58,
+        "name": "The Metamorphosis",
+        "title": "Franz Kafka's novella about a man who wakes up one day to find himself transformed into a giant insect.",
+        "price": 120,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/71qR+kG+43L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 59,
+        "name": "Crime and Punishment",
+        "title": "Fyodor Dostoevsky's novel about a man who commits a crime and struggles with guilt and redemption.",
+        "price": 170,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81bAXZAp-GL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 60,
+        "name": "The Brothers Karamazov",
+        "title": "Fyodor Dostoevsky's novel about the lives of three brothers and the murder of their father.",
+        "price": 200,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81TnYwmy65L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 61,
+        "name": "War and Peace",
+        "title": "Leo Tolstoy's novel about the lives of aristocratic families during the Napoleonic Wars.",
+        "price": 250,
+        "category": "Classics",
+        "image": "https://m.media-amazon.com/images/I/81oHM-dzefL._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 62,
+        "name": "The Art of War",
+        "title": "Sun Tzu's ancient Chinese military treatise on strategy, tactics, and warfare.",
+        "price": 100,
+        "category": "Philosophy",
+        "image": "https://m.media-amazon.com/images/I/71jWgemHbML._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 63,
+        "name": "The Prince",
+        "title": "Niccolò Machiavelli's political treatise on power, leadership, and statecraft.",
+        "price": 130,
+        "category": "Philosophy",
+        "image": "https://m.media-amazon.com/images/I/41Ivzsp3LfL._SY1000_.jpg",
+        "availability": "Paid"
+    },
+    {
+        "id": 64,
+        "name": "The Republic",
+        "title": "Plato's philosophical dialogue on justice, the ideal state, and the nature of the human soul.",
+        "price": 140,
+        "category": "Philosophy",
+        "image": "https://m.media-amazon.com/images/I/7160zSqr-2L._AC_UF1000,1000_QL80_.jpg",
+        "availability": "Paid"
+    }
+]
+
