@@ -12,3 +12,6 @@
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT) for secure user login
+<img width="1236" alt="image" src="https://github.com/user-attachments/assets/e1a3061e-7c77-470d-9997-99a109f053f9">
+
+
