@@ -5,38 +5,70 @@ import { useForm } from "react-hook-form";
 import axios from 'axios'
 import toast from "react-hot-toast";
 import { useAuth } from "../context/AuthProvider";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const { setAuthUser } = useAuth(); // Get setAuthUser from context
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  // const navigate = useNavigate();
+  // const { setAuthUser } = useAuth(); // Get setAuthUser from context
+  // const { register, handleSubmit, formState: { errors } } = useForm();
+
+  // const onSubmit = async (data) => {
+  //   const userInfo = { email: data.email, password: data.password };
+
+  //   try {
+  //     const response = await axios.post("http://localhost:4001/user/login", userInfo);
+  //     const { user } = response.data;
+  //     if (response.data) {
+  //       toast.success('Logged In Successfully!');
+  //       document.getElementById("my_modal_3").close();
+  //       setAuthUser({ ...user}); // Update the context with user and token
+  //       localStorage.setItem("Users", JSON.stringify({ ...user }));
+
+  //       setTimeout(() => {
+  //         // window.location.reload();
+  //         navigate("/")
+  //       }, 1000);
+  //     }
+  //   } catch (err) {
+  //     if (err.response) {
+  //       toast.error("Error: " + err.response.data.message);
+  //     } else {
+  //       toast.error("Login failed. Please try again.");
+  //     }
+  //   }
+  // };
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   const onSubmit = async (data) => {
-    const userInfo = { email: data.email, password: data.password };
-
-    try {
-      const response = await axios.post("http://localhost:4001/user/login", userInfo);
-      const { user } = response.data;
-
-      if (response.data) {
-        toast.success('Logged In Successfully!');
-        document.getElementById("my_modal_3").close();
-        setAuthUser({ ...user}); // Update the context with user and token
-        localStorage.setItem("Users", JSON.stringify({ ...user }));
-
-        setTimeout(() => {
-          // window.location.reload();
-          navigate("/")
-        }, 1000);
-      }
-    } catch (err) {
-      if (err.response) {
-        toast.error("Error: " + err.response.data.message);
-      } else {
-        toast.error("Login failed. Please try again.");
-      }
-    }
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:4001/user/login", userInfo)
+      .then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          toast.success("Loggedin Successfully");
+          document.getElementById("my_modal_3").close();
+          setTimeout(() => {
+            window.location.reload();
+            localStorage.setItem("Users", JSON.stringify(res.data.user));
+          }, 1000);
+        }
+      })
+      .catch((err) => {
+        if (err.response) {
+          console.log(err);
+          toast.error("Error: " + err.response.data.message);
+          setTimeout(() => {}, 2000);
+        }
+      });
   };
-
   
   return (
     <div className='dark:bg-white dark:text-black'>

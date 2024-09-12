@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios"; // Make sure axios is imported
 import { MdBookmarkAdded } from "react-icons/md";
-// import { useAuth } from '../context/AuthProvider';
+import { useAuth } from '../context/AuthProvider';
 import toast from "react-hot-toast"
 
 function ExploreCards({ item }) {

@@ -20,9 +20,9 @@ function Course() {
     }
     getBook();
   }, [])
-  const handleDelete = (id) => {
-    setBook(book.filter((item) => item._id !== id)); // Remove the book from state
-  };
+  // const handleDelete = (id) => {
+  //   setBook(book.filter((item) => item._id !== id)); // Remove the book from state
+  // };
   
   // const filterData = list.filter((data) => data.availability === "Paid");
   return (
@@ -38,7 +38,7 @@ function Course() {
         <div className='mt-12 grid grid-cols-1 md:grid-cols-4'>
           {
             book.map((item) => (
-              <ExploreCards key={item._id} item={item} onDelete={handleDelete} onBookmark={handleBookmark}/>
+              <ExploreCards key={item._id} item={item} />
             ))
           }
         </div>
